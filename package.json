@@ -1,0 +1,13 @@
+{
+  "name": "repro-peer-dep",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "package-a",
+    "package-b",
+    "workspace-a"
+  ],
+  "private": true,
+  "packageManager": "yarn@3.2.1"
+}
